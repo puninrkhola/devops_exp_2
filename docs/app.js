@@ -6,11 +6,11 @@ function validateLogin()
     if(username === "admin" && password === "1234")
     {
         window.location.href = "home.html";
-        //return false;
+        return false;
     }
     else{
         alert("invalid username or password");
-        //return false;
+        return false;
     }
 }
 
